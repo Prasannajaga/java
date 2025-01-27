@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.linearSearch;
 
 public class linearSearch {
 
@@ -57,6 +57,8 @@ public class linearSearch {
         int f = linearSearch(arr , 2001);
         int min  = min(arr) , maxV = max(arr);
         System.out.println(min + " " + maxV);
+
+        int a= 0;
 
     }
 }
